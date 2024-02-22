@@ -1,0 +1,104 @@
+*{
+    background: #ebeef1;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.container{
+    height: 25vh;
+    width: 100;
+    background: #ebeef1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.button{
+    position: relative;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 20px;
+    margin: 30px;
+    width: 150px;
+    height: 100px;
+    background: #ebeef1;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    color: #00a037;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16), -10px -10px 10px -1px rgba(255,255,255,0.70);
+}
+
+span{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-200%, -200%);
+    font-size: 100px; 
+}
+
+    
+.buttonsleep.rejected{
+    color: red;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16), 
+    inset -10px -10px 10px -1px rgba(255,255,255,0.70);
+}
+
+.buttonalarm.rejected {
+    color: blue;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16), 
+    inset -10px -10px 10px -1px rgba(255,255,255,0.70);
+}
+
+.buttondata.rejected {
+    color: yellow;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16), 
+    inset -10px -10px 10px -1px rgba(255,255,255,0.70);
+}
+
+.buttonwifi.rejected {
+    color: fuchsia;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16), 
+    inset -10px -10px 10px -1px rgba(255,255,255,0.70);
+}
+
+.buttonalert.rejected {
+    color: orange;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16), 
+    inset -10px -10px 10px -1px rgba(255,255,255,0.70);
+}
+
+.buttonpower.rejected {
+    color: tomato;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16), 
+    inset -10px -10px 10px -1px rgba(255,255,255,0.70);
+}
+
+.buttoncast.rejected {
+    color: teal;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16), 
+    inset -10px -10px 10px -1px rgba(255,255,255,0.70);
+}
+
+.buttonsend.rejected {
+    color: blueviolet;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16), 
+    inset -10px -10px 10px -1px rgba(255,255,255,0.70);
+}
+
+.buttonphone.rejected {
+    color: salmon;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16), 
+    inset -10px -10px 10px -1px rgba(255,255,255,0.70);
+}
+
+
+
